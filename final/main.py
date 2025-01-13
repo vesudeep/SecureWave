@@ -54,30 +54,35 @@ def send_message_to_all_channels(message):
         e.send(broadcast_mac, encrypted_payload)
         time.sleep(0.1)  # Small delay to ensure message is sent before switching channels
         
-def rssi_to_distance(rssi, tx_power=-30, path_loss_exponent=2.5, smooth_factor=0.8):
+def rssi_to_distance(rssi, tx_power=-40, path_loss_exponent=3.0, num_samples=5):
     """
-    Estimate distance from RSSI with optional smoothing and environmental calibration.
-    
+    Estimate distance based on RSSI with calibration and averaging.
+
     Parameters:
     - rssi: Received signal strength in dBm.
-    - tx_power: Transmitter power in dBm (calibrated for your hardware and environment).
-    - path_loss_exponent: Environmental factor for signal decay (calibrate for your space).
-    - smooth_factor: Weight for smoothing (0 < smooth_factor <= 1).
-    
+    - tx_power: Calibrated transmitter power in dBm.
+    - path_loss_exponent: Environmental factor (calibrate this value).
+    - num_samples: Number of samples for averaging RSSI.
+
     Returns:
-    - Distance estimate in meters.
+    - Estimated distance in meters.
     """
     global last_distance
-    # Calculate raw distance
-    distance = 10 ** ((tx_power - rssi) / (10 * path_loss_exponent))
     
-    # Smooth the output if previous distance is available
+    # Average RSSI samples
+    rssi_samples = [rssi for _ in range(num_samples)]  # Replace with actual RSSI readings
+    avg_rssi = sum(rssi_samples) / len(rssi_samples)
+    
+    # Calculate distance
+    distance = 10 ** ((tx_power - avg_rssi) / (10 * path_loss_exponent))
+    
+    # Smooth the output (optional)
     if 'last_distance' in globals():
-        distance = smooth_factor * last_distance + (1 - smooth_factor) * distance
-    
-    # Update global last_distance
+        distance = 0.8 * last_distance + 0.2 * distance  # Smooth factor
     last_distance = distance
+    
     return distance
+
 
 
 # Receiving data from all 14 channels
@@ -88,7 +93,7 @@ def receive_message_from_all_channels():
         host, msg = e.irecv()  # Non-blocking receive
         if msg:  # If a message is received
             print(f"Received message from {host} on channel {channel}: {msg}")
-            #print(e.peers_table[host][0])
+            #print(e.peers_table[host])
             print(f"{rssi_to_distance(e.peers_table[host][0])} meters")
             msgg = msg
             decrypted_payloadtkn = decrypt_payload(msg, key)
@@ -113,7 +118,7 @@ try:
     while True:
         print("Sending message to all channels...")
         #print(get_current_time())
-        send_message_to_all_channels(b"Hello from Sudeep to all channels")  # Send message to all channels
+        send_message_to_all_channels(b"Hello from Sudeep 1 to all channels")  # Send message to all channels
         time.sleep(1)  # Shorter delay before listening
 
         print("Listening for incoming messages from all channels...")
@@ -125,6 +130,8 @@ except KeyboardInterrupt:
 
 # Remove the broadcast peer when done
 e.del_peer(broadcast_mac)
+
+
 
 
 
