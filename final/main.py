@@ -53,6 +53,32 @@ def send_message_to_all_channels(message):
         # e.send(broadcast_mac, message)  # Send the message to the broadcast address
         e.send(broadcast_mac, encrypted_payload)
         time.sleep(0.1)  # Small delay to ensure message is sent before switching channels
+        
+def rssi_to_distance(rssi, tx_power=-30, path_loss_exponent=2.5, smooth_factor=0.8):
+    """
+    Estimate distance from RSSI with optional smoothing and environmental calibration.
+    
+    Parameters:
+    - rssi: Received signal strength in dBm.
+    - tx_power: Transmitter power in dBm (calibrated for your hardware and environment).
+    - path_loss_exponent: Environmental factor for signal decay (calibrate for your space).
+    - smooth_factor: Weight for smoothing (0 < smooth_factor <= 1).
+    
+    Returns:
+    - Distance estimate in meters.
+    """
+    global last_distance
+    # Calculate raw distance
+    distance = 10 ** ((tx_power - rssi) / (10 * path_loss_exponent))
+    
+    # Smooth the output if previous distance is available
+    if 'last_distance' in globals():
+        distance = smooth_factor * last_distance + (1 - smooth_factor) * distance
+    
+    # Update global last_distance
+    last_distance = distance
+    return distance
+
 
 # Receiving data from all 14 channels
 def receive_message_from_all_channels():
@@ -62,6 +88,8 @@ def receive_message_from_all_channels():
         host, msg = e.irecv()  # Non-blocking receive
         if msg:  # If a message is received
             print(f"Received message from {host} on channel {channel}: {msg}")
+            #print(e.peers_table[host][0])
+            print(f"{rssi_to_distance(e.peers_table[host][0])} meters")
             msgg = msg
             decrypted_payloadtkn = decrypt_payload(msg, key)
             print("Decrypted Payload:", decrypted_payloadtkn)
