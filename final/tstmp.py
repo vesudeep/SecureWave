@@ -23,23 +23,23 @@ def connect_wifi(ssid, password):
         print(e)
         
     while not wlan.isconnected():
-        print("Connecting to Wi-Fi...")
+        #----print("Connecting to Wi-Fi...")
         time.sleep(1)
 
-    print("Connected to Wi-Fi")
+    #----print("Connected to Wi-Fi")
     #impprint("Network config:", wlan.ifconfig())
 
 def set_time():
     try:
         ntptime.settime()  # Synchronize time with NTP server
-        print("Time synchronized with NTP server.")
+        #----print("Time synchronized with NTP server.")
         pin2.value(1)  # Blink LED on receiving message
         time.sleep(0.3)
         pin2.value(0)
         #wlan.disconnect()  # Optionally disconnect from Wi-Fi
         #impprint("Wi-Fi disconnected")
     except Exception as e:
-        print("Failed to synchronize time:", e)
+        #----print("Failed to synchronize time:", e)
         return False
         #impprint("Failed to synchronize time:", e)
 
@@ -71,11 +71,11 @@ def get_current_time_from_ntp(ssid, password):
     connect_wifi(ssid, password)
     #set_time()
     while(set_time() == False):
-        print("Improper internet connection trying again")
+        #----print("Improper internet connection trying again")
         #set_time()
         time.sleep(1)
     wlan.disconnect()
-    print("Wi-Fi disconnected")
+    #----print("Wi-Fi disconnected")
     return get_current_time()  # Return formatted time, current time, and Unix timestamp
 
 # Example usage:

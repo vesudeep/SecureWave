@@ -34,14 +34,14 @@ def create_custom_payload(device_id, message_id, data, status_code):
 def decode_custom_payload(payload):
     # Step 1: Check if the payload has at least the minimum length (10 bytes for fixed fields)
     if len(payload) < 10:
-        print(f"Payload too short to contain required fields. Expected at least 10 bytes, got {len(payload)}")
+        #----print(f"Payload too short to contain required fields. Expected at least 10 bytes, got {len(payload)}")
         return False
         raise ValueError(f"Payload too short to contain required fields. Expected at least 10 bytes, got {len(payload)}")
 
     # Step 2: Check if the payload structure matches the expected fields
     expected_header_size = struct.calcsize('>HHIBB')
     if len(payload) < expected_header_size:
-        print(f"Payload structure is incorrect. Expected at least {expected_header_size} bytes for header, got {len(payload)}")
+        #----print(f"Payload structure is incorrect. Expected at least {expected_header_size} bytes for header, got {len(payload)}")
         return False
         raise ValueError(f"Payload structure is incorrect. Expected at least {expected_header_size} bytes for header, got {len(payload)}")
 
@@ -51,7 +51,7 @@ def decode_custom_payload(payload):
     # Step 4: Check if the payload length matches the expected length (fixed part + data length)
     expected_length = 10 + data_length
     if len(payload) != expected_length:
-        print(f"Payload length does not match data length. Expected {expected_length} bytes, got {len(payload)}")
+        #----print(f"Payload length does not match data length. Expected {expected_length} bytes, got {len(payload)}")
         return False
         raise ValueError(f"Payload length does not match data length. Expected {expected_length} bytes, got {len(payload)}")
 
@@ -61,7 +61,7 @@ def decode_custom_payload(payload):
     #print("Receiver time: ", timestamp)
     #print("Difference: ", current_time - timestamp)
     if current_time - timestamp > 180 or current_time - timestamp < -10:  # 180 seconds = 3 minutes
-        print("Payload has expired. Timestamp is older than 3 minutes.")
+        #----print("Payload has expired. Timestamp is older than 3 minutes.")
         return False
         raise ValueError("Payload has expired. Timestamp is older than 3 minutes.")
 

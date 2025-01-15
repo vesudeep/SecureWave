@@ -69,7 +69,7 @@ def validate_jwt(token):
 
         return payload
     except Exception as e:
-        print("Invalid token:", e)
+        #----print("Invalid token:", e)
         return None
 
 # # Example custom payload as byte string
