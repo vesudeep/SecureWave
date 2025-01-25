@@ -2,7 +2,7 @@ import serial
 import csv
 
 # Configure the serial port
-serial_port = "COM11"  # Replace with your ESP32's serial port
+serial_port = "COM16"  
 baud_rate = 115200
 csv_file = "received_data.csv"
 

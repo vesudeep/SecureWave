@@ -1,0 +1,181 @@
+Sender ID,Receiver ID,Receiver Timestamp,Range,Message Size,Signal Strength,Message ID,Message,Status Code
+17,5333,791117021,3.414549,39,-56,1,Welcome aboard Device is now connected.,1
+6500,5333,791117021,3.469028,39,-57,1,Welcome aboard Device is now connected.,1
+1030,5333,791117021,3.571437,39,-58,1,Welcome aboard Device is now connected.,1
+6500,5333,791117021,3.859524,39,-61,1,Welcome aboard Device is now connected.,1
+6500,5333,791117021,6.023218,39,-75,1,Welcome aboard Device is now connected.,1
+5500,5333,791117021,5.820949,39,-61,1,Welcome aboard Device is now connected.,1
+5500,716,791117024,5.452974,39,-58,1,Welcome aboard Device is now connected.,1
+17,716,791117024,5.290697,39,-60,1,Welcome aboard Device is now connected.,1
+5500,716,791117024,5.09229,39,-59,1,Welcome aboard Device is now connected.,1
+5500,716,791117024,5.076207,39,-61,1,Welcome aboard Device is now connected.,1
+6500,716,791117024,6.779678,39,-74,1,Welcome aboard Device is now connected.,1
+17,716,791117024,6.283475,39,-59,1,Welcome aboard Device is now connected.,1
+5500,1024,791117026,6.10912,39,-62,1,Welcome aboard Device is now connected.,1
+6500,1024,791117026,5.519752,39,-55,1,Welcome aboard Device is now connected.,1
+1030,1024,791117026,5.001531,39,-54,1,Welcome aboard Device is now connected.,1
+6500,1024,791117026,4.738614,39,-57,1,Welcome aboard Device is now connected.,1
+1030,1024,791117026,4.719209,39,-60,1,Welcome aboard Device is now connected.,1
+6500,1024,791117026,4.857706,39,-62,1,Welcome aboard Device is now connected.,1
+5500,6469,791117029,4.569075,39,-56,1,Welcome aboard Device is now connected.,1
+5500,6469,791117029,4.33817,39,-56,1,Welcome aboard Device is now connected.,1
+5500,6469,791117029,4.207925,39,-57,1,Welcome aboard Device is now connected.,1
+1030,6469,791117029,4.162554,39,-58,1,Welcome aboard Device is now connected.,1
+1030,6469,791117029,5.489594,39,-71,1,Welcome aboard Device is now connected.,1
+5500,6469,791117029,5.65359,39,-64,1,Welcome aboard Device is now connected.,1
+5500,716,791117031,5.155327,18,-55,576,hello from device.,16
+5500,716,791117031,4.807172,18,-56,576,hello from device.,16
+1030,716,791117031,4.528647,18,-56,576,hello from device.,16
+5500,716,791117031,4.360307,18,-57,576,hello from device.,16
+17,716,791117031,4.225635,18,-57,576,hello from device.,16
+1030,716,791117031,5.380507,18,-70,576,hello from device.,16
+1030,716,791117031,5.473089,18,-63,576,hello from device.,16
+17,1024,791117034,5.061381,39,-56,1,Welcome aboard Device is now connected.,1
+17,1024,791117034,4.732015,39,-56,1,Welcome aboard Device is now connected.,1
+6500,1024,791117034,4.581827,39,-58,1,Welcome aboard Device is now connected.,1
+1030,1024,791117034,5.997291,39,-72,1,Welcome aboard Device is now connected.,1
+17,1024,791117034,5.966516,39,-63,1,Welcome aboard Device is now connected.,1
+6500,5333,791117036,5.405668,18,-55,576,hello from device.,16
+17,5333,791117036,5.061924,18,-57,576,hello from device.,16
+6500,5333,791117036,4.786928,18,-57,576,hello from device.,16
+5500,5333,791117036,4.566932,18,-57,576,hello from device.,16
+6500,5333,791117036,4.513278,18,-59,576,hello from device.,16
+5500,5333,791117036,5.610622,18,-70,576,hello from device.,16
+6500,5333,791117036,6.20389,18,-68,576,hello from device.,16
+5500,6469,791117039,5.646022,39,-56,1,Welcome aboard Device is now connected.,1
+6500,6469,791117039,5.254207,39,-57,1,Welcome aboard Device is now connected.,1
+6500,6469,791117039,4.99958,39,-58,1,Welcome aboard Device is now connected.,1
+5500,6469,791117039,5.588321,39,-67,1,Welcome aboard Device is now connected.,1
+6500,6469,791117039,5.833241,39,-65,1,Welcome aboard Device is now connected.,1
+17,6469,791117041,5.403982,29,-57,5,Welcome Device is now online.,0
+5500,6469,791117041,5.060575,29,-57,5,Welcome Device is now online.,0
+6500,6469,791117041,4.844675,29,-58,5,Welcome Device is now online.,0
+1030,6469,791117041,4.671954,29,-58,5,Welcome Device is now online.,0
+17,6469,791117041,4.597296,29,-59,5,Welcome Device is now online.,0
+1030,6469,791117041,5.040421,29,-65,5,Welcome Device is now online.,0
+5500,6469,791117041,4.960655,29,-60,5,Welcome Device is now online.,0
+6500,6469,791117044,4.828256,39,-59,50,Welcome Device is powered up and ready.,2
+5500,6469,791117044,4.722337,39,-59,50,Welcome Device is powered up and ready.,2
+1030,6469,791117044,4.946553,39,-63,50,Welcome Device is powered up and ready.,2
+1030,6469,791117044,8.266112,39,-80,50,Welcome Device is powered up and ready.,2
+17,1024,791117046,7.472622,39,-59,50,Welcome Device is powered up and ready.,2
+17,1024,791117046,6.837831,39,-59,50,Welcome Device is powered up and ready.,2
+5500,1024,791117046,6.552604,39,-62,50,Welcome Device is powered up and ready.,2
+1030,1024,791117046,6.244458,39,-61,50,Welcome Device is powered up and ready.,2
+1030,1024,791117046,7.714279,39,-74,50,Welcome Device is powered up and ready.,2
+1030,6469,791117049,7.173798,29,-61,5,Welcome Device is now online.,0
+6500,6469,791117049,6.821378,29,-62,5,Welcome Device is now online.,0
+5500,6469,791117049,6.625785,29,-63,5,Welcome Device is now online.,0
+5500,6469,791117049,6.469311,29,-63,5,Welcome Device is now online.,0
+17,6469,791117049,6.538033,29,-65,5,Welcome Device is now online.,0
+1030,6469,791117049,6.819083,29,-67,5,Welcome Device is now online.,0
+1030,1024,791117051,6.457641,39,-61,1,Welcome aboard Device is now connected.,1
+6500,1024,791117051,6.248452,39,-62,1,Welcome aboard Device is now connected.,1
+17,1024,791117051,6.167444,39,-63,1,Welcome aboard Device is now connected.,1
+1030,1024,791117051,6.40524,39,-66,1,Welcome aboard Device is now connected.,1
+6500,1024,791117051,6.595477,39,-66,1,Welcome aboard Device is now connected.,1
+6500,716,791117054,6.2047,39,-60,50,Welcome Device is powered up and ready.,2
+5500,716,791117054,5.966135,39,-61,50,Welcome Device is powered up and ready.,2
+17,716,791117054,5.94159,39,-63,50,Welcome Device is powered up and ready.,2
+1030,716,791117054,6.224557,39,-66,50,Welcome Device is powered up and ready.,2
+1030,716,791117054,6.45093,39,-66,50,Welcome Device is powered up and ready.,2
+1030,1024,791117056,5.843654,29,-56,5,Welcome Device is now online.,0
+5500,1024,791117056,5.412313,29,-57,5,Welcome Device is now online.,0
+6500,1024,791117056,5.067239,29,-57,5,Welcome Device is now online.,0
+17,1024,791117056,4.850006,29,-58,5,Welcome Device is now online.,0
+1030,1024,791117056,4.739738,29,-59,5,Welcome Device is now online.,0
+6500,1024,791117056,5.380446,29,-67,5,Welcome Device is now online.,0
+5500,1024,791117056,5.47304,29,-63,5,Welcome Device is now online.,0
+6500,1024,791117059,5.010887,39,-55,1,Welcome aboard Device is now connected.,1
+1030,1024,791117059,4.69162,39,-56,1,Welcome aboard Device is now connected.,1
+17,1024,791117059,4.385751,39,-55,1,Welcome aboard Device is now connected.,1
+6500,1024,791117059,4.770515,39,-64,1,Welcome aboard Device is now connected.,1
+17,1024,791117059,4.676145,39,-59,1,Welcome aboard Device is now connected.,1
+1030,1024,791117061,4.28337,29,-53,5,Welcome Device is now online.,0
+1030,1024,791117061,4.012425,29,-54,5,Welcome Device is now online.,0
+6500,1024,791117061,3.795669,29,-54,5,Welcome Device is now online.,0
+5500,1024,791117061,3.668991,29,-55,5,Welcome Device is now online.,0
+1030,1024,791117061,3.618103,29,-56,5,Welcome Device is now online.,0
+5500,1024,791117061,3.631871,29,-57,5,Welcome Device is now online.,0
+6500,1024,791117061,3.537953,29,-55,5,Welcome Device is now online.,0
+5500,716,791117064,3.372817,39,-53,50,Welcome Device is powered up and ready.,2
+1030,716,791117064,3.283982,39,-54,50,Welcome Device is powered up and ready.,2
+5500,716,791117064,3.212915,39,-54,50,Welcome Device is powered up and ready.,2
+1030,716,791117064,3.202787,39,-55,50,Welcome Device is powered up and ready.,2
+17,716,791117064,3.194685,39,-55,50,Welcome Device is powered up and ready.,2
+17,6469,791117066,3.098203,29,-53,5,Welcome Device is now online.,0
+17,6469,791117066,3.021017,29,-53,5,Welcome Device is now online.,0
+6500,6469,791117066,3.002542,29,-54,5,Welcome Device is now online.,0
+17,6469,791117066,2.987763,29,-54,5,Welcome Device is now online.,0
+17,6469,791117066,3.022666,29,-55,5,Welcome Device is now online.,0
+5500,6469,791117066,3.050588,29,-55,5,Welcome Device is now online.,0
+17,6469,791117066,3.072926,29,-55,5,Welcome Device is now online.,0
+6500,1024,791117069,3.141251,39,-56,50,Welcome Device is powered up and ready.,2
+1030,1024,791117069,3.145457,39,-55,50,Welcome Device is powered up and ready.,2
+5500,1024,791117069,3.199275,39,-56,50,Welcome Device is powered up and ready.,2
+6500,1024,791117069,3.355634,39,-58,50,Welcome Device is powered up and ready.,2
+5500,1024,791117069,3.480722,39,-58,50,Welcome Device is powered up and ready.,2
+5500,716,791117071,3.467487,39,-56,1,Welcome aboard Device is now connected.,1
+5500,716,791117071,3.406446,39,-55,1,Welcome aboard Device is now connected.,1
+1030,716,791117071,3.357612,39,-55,1,Welcome aboard Device is now connected.,1
+1030,716,791117071,3.318545,39,-55,1,Welcome aboard Device is now connected.,1
+17,6469,791117074,3.287292,39,-55,1,Welcome aboard Device is now connected.,1
+5500,6469,791117074,3.262289,39,-55,1,Welcome aboard Device is now connected.,1
+17,6469,791117074,3.242287,39,-55,1,Welcome aboard Device is now connected.,1
+5500,6469,791117074,3.390044,39,-58,1,Welcome aboard Device is now connected.,1
+6500,6469,791117074,3.50825,39,-58,1,Welcome aboard Device is now connected.,1
+1030,6469,791117076,3.439055,29,-55,5,Welcome Device is now online.,0
+1030,6469,791117076,3.3837,29,-55,5,Welcome Device is now online.,0
+5500,6469,791117076,3.339416,29,-55,5,Welcome Device is now online.,0
+6500,6469,791117076,3.257261,29,-54,5,Welcome Device is now online.,0
+1030,6469,791117076,3.343198,29,-57,5,Welcome Device is now online.,0
+17,6469,791117076,3.602876,29,-60,5,Welcome Device is now online.,0
+17,6469,791117076,3.678515,29,-58,5,Welcome Device is now online.,0
+1030,1024,791117079,3.528541,39,-54,1,Welcome aboard Device is now connected.,1
+5500,1024,791117079,3.408562,39,-54,1,Welcome aboard Device is now connected.,1
+1030,1024,791117079,3.312578,39,-54,1,Welcome aboard Device is now connected.,1
+1030,1024,791117079,3.332973,39,-56,1,Welcome aboard Device is now connected.,1
+6500,1024,791117079,3.252107,39,-54,1,Welcome aboard Device is now connected.,1
+1030,1024,791117081,3.284595,18,-56,576,hello from device.,16
+1030,1024,791117081,3.310586,18,-56,576,hello from device.,16
+1030,1024,791117081,3.385858,18,-57,576,hello from device.,16
+6500,1024,791117081,3.446076,18,-57,576,hello from device.,16
+6500,1024,791117081,3.389316,18,-55,576,hello from device.,16
+17,1024,791117081,3.394363,18,-56,576,hello from device.,16
+17,1024,791117081,3.511705,18,-58,576,hello from device.,16
+5500,716,791117084,3.441819,39,-55,50,Welcome Device is powered up and ready.,2
+6500,716,791117084,3.436366,39,-56,50,Welcome Device is powered up and ready.,2
+17,716,791117084,3.486482,39,-57,50,Welcome Device is powered up and ready.,2
+1030,716,791117084,3.5854,39,-58,50,Welcome Device is powered up and ready.,2
+6500,716,791117084,3.728052,39,-59,50,Welcome Device is powered up and ready.,2
+17,6469,791117086,3.719831,39,-57,50,Welcome Device is powered up and ready.,2
+6500,6469,791117086,3.772079,39,-58,50,Welcome Device is powered up and ready.,2
+6500,6469,791117086,3.813878,39,-58,50,Welcome Device is powered up and ready.,2
+1030,6469,791117086,4.219785,39,-63,50,Welcome Device is powered up and ready.,2
+1030,6469,791117086,5.228065,39,-69,50,Welcome Device is powered up and ready.,2
+1030,6469,791117086,4.978667,39,-58,50,Welcome Device is powered up and ready.,2
+1030,1024,791117089,4.911252,39,-60,1,Welcome aboard Device is now connected.,1
+1030,1024,791117089,4.725216,39,-58,1,Welcome aboard Device is now connected.,1
+5500,1024,791117089,4.639905,39,-59,1,Welcome aboard Device is now connected.,1
+17,1024,791117089,4.880607,39,-63,1,Welcome aboard Device is now connected.,1
+6500,1024,791117089,5.756723,39,-69,1,Welcome aboard Device is now connected.,1
+5500,1024,791117089,5.401593,39,-58,1,Welcome aboard Device is now connected.,1
+5500,6469,791117091,5.181007,39,-59,50,Welcome Device is powered up and ready.,2
+1030,6469,791117091,5.004539,39,-59,50,Welcome Device is powered up and ready.,2
+6500,6469,791117091,4.931949,39,-60,50,Welcome Device is powered up and ready.,2
+5500,6469,791117091,5.534216,39,-67,50,Welcome Device is powered up and ready.,2
+17,6469,791117091,5.596056,39,-63,50,Welcome Device is powered up and ready.,2
+5500,6469,791117091,5.214234,39,-57,50,Welcome Device is powered up and ready.,2
+1030,1024,791117093,4.967602,39,-58,1,Welcome aboard Device is now connected.,1
+1030,1024,791117093,4.9024,39,-60,1,Welcome aboard Device is now connected.,1
+17,1024,791117093,5.004259,39,-62,1,Welcome aboard Device is now connected.,1
+1030,1024,791117093,5.718799,39,-68,1,Welcome aboard Device is now connected.,1
+5500,1024,791117093,5.657378,39,-62,1,Welcome aboard Device is now connected.,1
+6500,1024,791117093,5.208813,39,-56,1,Welcome aboard Device is now connected.,1
+1030,5333,791117096,5.026783,39,-59,50,Welcome Device is powered up and ready.,2
+5500,5333,791117096,5.023801,39,-61,50,Welcome Device is powered up and ready.,2
+1030,5333,791117096,5.10138,39,-62,50,Welcome Device is powered up and ready.,2
+17,5333,791117096,5.669761,39,-67,50,Welcome Device is powered up and ready.,2
+6500,5333,791117096,5.538183,39,-61,50,Welcome Device is powered up and ready.,2
+17,5333,791117096,5.113457,39,-56,50,Welcome Device is powered up and ready.,2
+6500,5333,791117098,5.09314,18,-61,576,hello from device.,16
